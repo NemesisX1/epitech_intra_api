@@ -32,5 +32,6 @@ extension DateEndPointExt on DateEndPoint {
     DateEndPoint.planning: '/planning/load?format=json&',
     DateEndPoint.module_board: '/module/board?format=json&'
   };
+
   String? get value => ept[this];
 }
